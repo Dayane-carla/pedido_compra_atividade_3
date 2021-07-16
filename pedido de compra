@@ -1,0 +1,62 @@
+Algoritmo "EmpresaOzzy-Pedido-de-compras"
+
+
+
+
+Var  produto:caracter
+     resposta,quantidade:inteiro
+     valor,total,soma:real
+
+
+
+
+
+Inicio
+       escreval("----------------------EMPRESA OZZY----------------------------")
+       escreval("--------------------------------------------------------------")
+       escreval("--------------------------------------------------------------")
+       escreval("-------------------PEDIDO DE COMPRAS--------------------------")
+
+
+
+
+          resposta <- 0
+
+           
+          enquanto (resposta = 0) faca
+                 escreval("Deseja fazer pedido? (0)Sim, (1)Não")
+                 leia(resposta)
+
+                      se (resposta=0) entao
+                      
+                          escreva ("Insira o produto:")
+                          leia(produto)
+                          escreva ("Insira a quantidade:")
+                          leia (quantidade)
+                          escreva ("Insira o valor:")
+                          leia(valor)
+
+       escreval ("------------------------------------------------------------")
+                          escreval ("Produto:",produto)
+                          escreval ("Quantidade: ", quantidade)
+                          escreval ("Valor:", valor:4:2)
+                          total <- total + (quantidade * valor)
+                          escreval ("Valor total: ", (quantidade * valor):4:2)
+
+                          
+                                    resposta<-resposta+resposta
+                      senao
+       escreval ("------------------------------------------------------------")
+                          escreval("Fim do pedido.")
+
+                      fimse
+          fimenquanto
+          
+
+                
+       escreval ("------------------------------------------------------------")
+
+       escreval ("Valor total: ", total:4:2)
+
+
+Fimalgoritmo
